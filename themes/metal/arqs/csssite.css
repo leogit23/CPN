@@ -1,0 +1,330 @@
+html {
+	overflow-y: scroll;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+	background: #EBEBEB;
+	
+	max-width: 100%;
+	max-height: 100%;
+	overflow-x: hidden;
+	font-family: Lucida Sans Unicode;
+}
+
+p { line-height: 23px; }
+
+.title{
+	font: Verdana; font-size:36px; color: #545454;;
+}
+
+.spot{
+	font-weight: bold; color: #545454;;
+}
+
+.stand {
+	background: #c11; color: white;
+	font-weight: bold;
+	border: 2px solid white; display: inline-block;
+	margin-left: 10px; margin-top: 10px;
+	padding: 5px; text-decoration: none;
+}
+
+.stand:hover { color:#c11; background: white; border: 1px solid #c11; text-decoration:none; cursor: pointer; }
+
+.metal {
+	background: #bab8b8; color: black;
+	font-weight: bold;
+	border: 2px solid #8c8c8c; display: inline-block;
+	margin-left: 10px; margin-top: 10px;
+	padding: 5px; text-decoration: none;
+}
+
+.metal:hover { color:#bab8b8; background: #8c8c8c; border: 2px solid white; text-decoration:none; cursor: pointer; }
+
+.adap {
+	background: #bab8b8;
+	color: black;
+	font-weight: bold;
+	border: 2px solid #8c8c8c;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.adap:hover { color:#bab8b8; background: #8c8c8c; border: 2px solid white; text-decoration:none;}
+
+.lang {
+	background: lightgrey;
+	color: white;
+	font-weight: bold;
+	border: 2px solid #707070;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 2px;
+	text-decoration: none;
+	position: fixed;
+	bottom: 2%;
+}
+
+.zoo:hover {
+	background: blue; transform: scale(1.1); cursor: pointer;
+}
+
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+	text-decoration: underline;
+}
+
+audio { 
+   display:none;
+}
+
+.divSom {
+	display:none;
+}
+
+.dial {
+	width: 100%; background: white; font-size: 19px; border: 1px solid #1c1c1c; padding-bottom: 20px; padding-top: 20px; text-align: center; font-weight: bold;
+}
+
+/* normal */
+.dial a:link { color: black; text-decoration: underline; }
+.dial a:visited { color: black; text-decoration: underline; }
+/* passar mouse */
+.dial a:hover { text-decoration: none; target = _blank}
+/* selecionado */
+.dial a:active { color: #e5c100; text-decoration: underline; }
+
+.eDial{
+	width: 92%; background: #c11; color: #e5c100; font-size: 19px; border: 0px solid; padding-top: 15px; padding-bottom: 15px;
+}
+
+.eBotDe{
+	width: 20%; background: lightgrey; color: black;  font-size: 19px; border: 0px solid; border-left: 0px; margin-bottom: 10px; padding-top: 15px; padding-bottom: 15px;
+}
+
+.eSim{
+	width: 50%; cursor: pointer; background: #bab8b8; border: 0px; border-bottom: 1px solid #8c8c8c; color: black; font-weight: bold; font-size: 19px; padding-top: 15px; padding-bottom: 15px; border-right: 1px solid #8c8c8c;
+}
+
+.eSim:hover {
+	background: #8c8c8c; color: white; border-right: 1px solid #bab8b8; font-size: 20px;
+}
+
+.eNao{
+	width: 50%; cursor: pointer; background: black; color: white; font-size: 19px; border: 0; border-left: 1px solid #8c8c8c; padding-top: 15px; padding-bottom: 15px;
+}
+
+.eNao:hover{
+	font-size: 20px;
+}
+
+.eImgCont {
+	user-select: none; width: 100%; background: #bab8b8; color: white; padding-left: 6px; font-size: 21px; border: 0; border-top: 1px solid #545454; border-bottom: 1px solid #545454; margin-bottom: 15px; padding-bottom: 5px;  padding-top: 5px; font-weight: bold;
+}
+
+.eImgCont:hover {
+	background: #8c8c8c; color: black; font-size: 23px; cursor: pointer;
+}
+
+.eImgContCin {
+	width: 100%; background: black; padding-left: 6px; color: white; font-size: 21px; border: 1px solid black; margin-bottom: 15px; padding-bottom: 5px;  padding-top: 5px; font-weight: bold;
+}
+
+.eImgContCin:hover {
+	background: lightgrey; color: black; font-size: 23px; cursor: pointer;
+}
+
+.eConts {
+	width: 100%; background: lightgrey; color: black; font-size: 17px; margin-bottom: 5px; padding-left: 5px; padding-bottom: 5px;  padding-top: 5px; font-weight: bold;
+}
+
+.eConts:hover {
+	background: #E5E5E5; border-top: 1px solid grey; border-bottom: 1px solid grey; font-size: 19px; cursor: pointer;
+}
+
+
+.eImgDial {
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+.eGranTex {
+	width: 100%; height: 150px; border-top: 1px solid black; border-bottom: 1px solid black; padding-right: 10px; font-size: 16px;
+}
+
+.ePeqTex {
+	width: 100%; height: 50px; border: 0; border-top: 1px solid black; border-bottom: 1px solid black; padding-left: 10px; font-size:25px; margin-left: -1px; margin-bottom: 20px;
+}
+
+.ePeqCombo {
+	width: 120%; margin-left: -10px; padding-left: 10px; -webkit-appearance:none; height: 50px; border-top: 1px solid grey; border-bottom: 1px solid grey; box-sizing: border-box; margin-bottom: 10px; font-size:25px; 
+}
+
+.eDecisaoCombo {
+	width: 120%; margin-left: -10px; padding-left: 10px; -webkit-appearance:none; height: 50px; border-top: 1px solid white; border-bottom: 1px solid grey; box-sizing: border-box; margin-bottom: 10px; font-size:25px; 
+}
+
+.eBotao {
+	width: 100%; text-transform:uppercase; font-family: Tahoma; margin-bottom: 10px; background: white; color: #545454; font-size: 19px; margin-top: 10px; margin-bottom: 10px; padding-bottom: 15px; padding-top: 15px; text-align: center; font-weight: bold; border: 0; border-top: 1px solid grey; border-bottom: 1px solid grey;
+}
+
+.eBotao:hover {
+	background: #8c8c8c; color: white; font-weight: bold; cursor: pointer;
+}
+
+.cablog {
+  background-color: #707070;
+  padding: 10px 15px 10px 40px;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cab {
+	width: 100vw; background: #c0c0c0; color: white; border: 1px solid #545454; padding-top: 5px; text-align: center; font-weight: bold; font-size: 40px;
+}
+
+.rodape {
+	text-align: center;
+	margin-top: 20px;
+    padding: 0; border: 0;
+	color: white;
+	background: #303030;
+	
+    vertical-align: baseline;
+	
+	padding-top: 16px; padding-bottom: 16px; padding-left: 16px; padding-right: 16px;
+	font-size: 14px;
+	font-family: Arial;
+	box-shadow: inset 0px 0px 20px 3px black;
+}
+
+.eMenu {
+	overflow-x:hidden;
+	overflow-y: hidden;
+    padding: 0;
+    border: 0;
+	color: #000;
+	font-size: 22px;
+    vertical-align: baseline;
+	background-color: #F1F1F1;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 1px solid #DADADA;
+}
+
+.eii {
+	@extend eMenu;
+	font-family: Tahoma; color: black; margin-bottom: 0; font-size: 16px; font-weight: bold; padding-bottom: 15px; padding-top: 15px; padding-left: 16px;
+}
+
+.conteudo {
+	overflow-x:hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    padding: 0;
+    border: 0;
+	font-color: #000;
+	font-size: 16px;
+	font-family: Lucida Sans Unicode;
+	background-color: white;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	color: black;
+	
+    font-style: inherit;
+	box-shadow: 0px 0px 12px grey;
+}
+
+/* unvisited link */
+.rodape a:link { color: white; text-decoration: underline; }
+
+/* visited link */
+.rodape a:visited { color: white; }
+
+/* mouse over link */
+.rodape a:hover { color: white; text-decoration: none; target = _blank}
+
+/* selected link */
+.rodape a:active { color: white; }
+
+#eWebMenu {
+	box-shadow: 0px 0px 32px grey;
+    padding: 0;
+    border: 0;
+	font-color: #000;
+	/*font-size: 15px;*/
+	background-color: #F1F1F1;
+	padding-left: 35px;
+	border-bottom: 1px solid #DADADA;
+	padding-bottom: 55px;
+}
+
+#eWebMenu ul, #eWebMenu ul li { margin:0; padding:0; list-style:none; }
+ 
+#eWebMenu ul li{
+    float:left;
+    border-right:solid 1px #DADADA;
+	height: 55px;
+	font-family: Tahoma; font-weight: bold; background: #F1F1F1; color: black; font-size: 14px;
+	padding-right: 25px; padding-left: 17px;
+}
+ 
+#eWebMenu ul li:hover{
+    background-color: white;
+    position:relative;
+	font-size: 16px;
+}
+ 
+#eWebMenu ul li a{
+    color: #545454;
+    display:inline-block;
+    text-decoration:none;
+	cursor: default;
+}
+ 
+/**** SUBMENUS ****/
+#eWebMenu ul li ul{
+    position:absolute;
+    display:none;
+}
+ 
+#eWebMenu ul li:hover ul{
+    left:0;
+	top: 55px;
+    display:block;
+}
+ 
+#eWebMenu ul li ul li{
+    width:300px;
+	height: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    background-color: #F1F1F1;
+	border: 1px solid #DADADA;
+}
+ 
+#eWebMenu ul li:hover ul li:hover{
+    background-color: white;
+	cursor: pointer;
+}
+ 
+#eWebMenu ul li ul li a{
+    color:#454444;
+    width:300px;
+	cursor: pointer;
+}
+
+@font-face { font-family: senha; src: url('password.ttf'); }

@@ -1,0 +1,110 @@
+.minlis{
+	position:fixed;
+	width:200px;
+	height:3%;
+	padding:10px;
+	background:#c1c1c1;
+	color:black;
+	text-align:center;
+	font-family:Cambria;
+	font-size:20px;
+	bottom:0px;
+	cursor:pointer;
+	right:15px;
+	z-index:1;
+}
+.lis{
+	display:none;
+	background: #000;
+	position:fixed;
+	width:200px;
+	height:94%;
+	background:#c1c1c1;
+	color:black;
+	text-align:left;
+	font-family:Cambria;
+	font-size:20px;
+	z-index:1;
+	right: 15px;
+	bottom:0px;
+	padding:10px;
+}
+.caixaconv0, .caixaconv1, .caixaconv2, .caixaconv3{
+	display:none;
+	position:fixed;
+	width:200px;
+	height:60%;
+	padding-top: 5px;
+	background:#C9302C;
+	color:#000000;
+	font-family:Cambria;
+	font-size:20px;
+	bottom:0px;
+	z-index:1;
+	right: 250px;
+	text-align: center;
+}
+.caixaconv1{right: 485px;}
+.caixaconv2{right: 720px;}
+.caixaconv3{right: 955px;}
+.fechar
+ {
+ position:absolute !important;
+ width:22px !important;
+ height:27px !important;
+ text-align:center !important;
+ background:rgba(0,0,0,0.8) !important;
+ color:white;
+ font-family:Cambria !important;
+ right:0px;top:0px !important;
+ cursor:pointer;
+ }
+ .fechar:hover{
+	 color: #FF7700;
+ }
+.dialogo{
+	resize: vertical;
+	height: 76%;
+	width: 100%;
+	top: 1%;
+	position: relative;
+	font-size: 16px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #e5e5e5;
+	word-wrap:break-word;
+	text-align: left;
+	margin-top: 5px; margin-bottom: 7px;
+}
+.amigos{
+	display: block;
+	height: 85%;
+	width: 100%;
+	top: 3%;
+	position: relative;
+	font-size: 15px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: white;
+	
+	text-align: left;
+	background: #E5E5E5;
+	
+}
+.mlabel{
+	font-family: 'Lucida Console';font-size: 15px;float:left;
+
+	top: 3%;
+	width: 100%;
+	height: 8%; 
+	border: 0;
+	background: #e5e5e5;
+	position: relative;
+}
+.mcaix{
+	
+}
+.quadr{
+	padding: 10px;
+	margin: 10px;
+}
